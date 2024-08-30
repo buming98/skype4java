@@ -1,0 +1,22 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /${spring.application.name}
+
+spring:
+  application:
+    name: events
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: 123456
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+
+skype:
+  login:
+    userName: xxx
+    passWord: xxx
